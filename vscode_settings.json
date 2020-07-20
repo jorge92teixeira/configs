@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "terminal.integrated.scrollback": 10000,
+    "workbench.activityBar.visible": true,
+    "workbench.panel.defaultLocation": "right",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontSize": 14,
+    "terminal.external.osxExec": "iTerm2.app"
+}
