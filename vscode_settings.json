@@ -9,6 +9,6 @@
     "workbench.activityBar.visible": true,
     "workbench.panel.defaultLocation": "right",
     "terminal.integrated.cursorStyle": "underline",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
     "terminal.external.osxExec": "iTerm2.app"
 }
