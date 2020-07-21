@@ -12,5 +12,7 @@ zstyle :prompt:pure:prompt:success color green
 
 prompt pure
 
+alias graph="git log --all --decorate --oneline --graph"
+
 compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
