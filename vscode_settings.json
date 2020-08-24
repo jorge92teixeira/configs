@@ -10,5 +10,8 @@
     "workbench.panel.defaultLocation": "right",
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.fontSize": 13,
-    "terminal.external.osxExec": "iTerm2.app"
+    "terminal.external.osxExec": "iTerm2.app",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "prettier.packageManager": "yarn",
+    "editor.formatOnSave": true
 }
