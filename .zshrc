@@ -14,7 +14,7 @@ prompt pure
 
 alias graph="git log --all --decorate --oneline --graph"
 alias cpuclock="watch -n0.5 'cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq'"
-alias gbr="git branch | grep -v "master" | xargs git branch -D"
+alias gitclear="git branch | grep -v "master, development" | xargs git branch -D"
 
 compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
