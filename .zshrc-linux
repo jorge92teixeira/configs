@@ -1,0 +1,21 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd extendedglob nomatch notify
+unsetopt beep
+bindkey -v
+# End of lines configured by zsh-newuser-install
+
+fpath+=($HOME/.zsh/pure $HOME/.zsh/zsh-completions/src)
+autoload -U promptinit; promptinit
+
+zstyle :prompt:pure:git:stash show yes
+zstyle :prompt:pure:prompt:success color green
+
+prompt pure
+
+autoload -U compinit && compinit
+
+compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
