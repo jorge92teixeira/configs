@@ -1,0 +1,33 @@
+$ echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
+$ sudo dnf -y upgrade --refresh
+
+Install RPM fusion
+Enable SSH
+Change DNS to Cloudfare
+Config Git (name, email)
+Install better fonts (dawid/better_fonts)
+Other fonts
+  $ sudo dnf install -y fira-code-fonts 'mozilla-fira*' 'google-roboto*'
+
+Install ZSH
+  $ sudo dnf install zsh
+  $ chsh -s $(which zsh) //needs util-linux-user
+  $ mkdir -p "$HOME/.zsh"
+  $ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+ 
+Install Flathub
+Install Node.js
+  $ sudo dnf module install nodejs:14
+  
+Install VS Code, Chrome, Edge
+Install gnome-tweak-tool, youtube-dl, neofetch, qbittorrent, keepassxc, vlc, veracrypt, ffmpeg, gparted
+Install mpv
+  $ cp -r /usr/share/doc/mpv/ ~/.config/
+  add --no-osd-bar to ~/.config/mpv/mpv.conf
+  add autoload.lua to ~/.config/mpv/scripts/
+
+Install Flatpaks: spotify, discord, telegram, postman
+Enable OpenH264 on Firefox
+  $ sudo dnf config-manager --set-enabled fedora-cisco-openh264
+  $ sudo dnf install -y gstreamer1-plugin-openh264 mozilla-openh264
+ 
