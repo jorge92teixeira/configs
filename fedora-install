@@ -25,6 +25,8 @@ Install mpv
   $ cp -r /usr/share/doc/mpv/ ~/.config/
   add --no-osd-bar to ~/.config/mpv/mpv.conf
   add autoload.lua to ~/.config/mpv/scripts/
+  add gnome-session-inhibit to the beginning of the Exec= line in mpv.desktop     
+  $ sudo nano /usr/share/applications/mpv.desktop
 
 Install Flatpaks: spotify, discord, telegram, postman
 Enable OpenH264 on Firefox
